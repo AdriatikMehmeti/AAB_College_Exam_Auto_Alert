@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 
 class EMAIL:
 
-    #info
-    target_email = 'mehmetiadriatik0@gmail.com'
+    #info. Replace with your additional email
+    target_email = ''
 
     def __init__(self,email = None, password = None, port = None):
         self.email = email
@@ -45,6 +45,7 @@ class EMAIL:
 
             #return True
 
+        self.target_email = self._config.get('email') if self.target_email.strip() == '' else self.target_email
         #return False
 
 
