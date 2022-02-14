@@ -1,0 +1,2 @@
+# AAB_College_Exam_Auto_Alert
+Është një skript që mund të përdoret nga studentët e Kolegjit AAB, skripta kontrollon rezultatet e provimeve nëse janë përditësuar, gjatë afateve të provimeve, supozohet se deri në kohen e konsultimit duhet të pranoni rezultatin, keshtu permes kesaj skripte mund te kontrolloni qdo dite per pune sekondash.  Pas Instalimit e vendos ne schedule qe te ekzekutohet qdo dite, pastaj qdo dite do te pranoni njoftimet ne email  (Nese keni nje rezultat te ri, Nese nuk keni risi, Nese fjalkalimi juaj eshte rivendosur)
